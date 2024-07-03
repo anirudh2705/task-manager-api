@@ -1,0 +1,28 @@
+{
+  "name": "task-manager-backend",
+  "version": "1.0.0",
+  "description": "This project is completely focused on backend development the frontend is build using html, css & js only to inetract with backend ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirudh2705/task-manager-backend-focused.git"
+  },
+  "keywords": [
+    "task-manager"
+  ],
+  "author": "Anirudh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anirudh2705/task-manager-backend-focused/issues"
+  },
+  "homepage": "https://github.com/anirudh2705/task-manager-backend-focused#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4"
+  }
+}
