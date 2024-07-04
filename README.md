@@ -6,7 +6,6 @@ A simple task manager app api using Node.js, Express, MongoDb. This app allows u
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Project Structure](#project-structure)
 - [Explanation of Files](#explanation-of-files)
 
 ## Installation
@@ -47,18 +46,6 @@ A simple task manager app api using Node.js, Express, MongoDb. This app allows u
 - `POST /api/v1/tasks`: Create a new task.
 - `PUT /api/v1/tasks/:id`: Update a task.
 - `DELETE /api/v1/tasks/:id`: Delete a task by ID.
-
-## Project Structure
-task-manager/
-├── routes/
-├── controller/
-├── middleware/
-├── db/
-├── models/
-├── errors/
-├── app.js
-├── package.json
-└── README.md
 
 ### Explanation of Files
 - **routers/**: Contains the Express route handlers.
